@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+
+h2 {
+    color: #00090A;
+    font-weight: 700;
+}
+
+h3{
+    color: #8C1414;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+h4 {
+    color: #8A6C33;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.tradedpickteam{
+    font-size: .8em;
+    font-weight: 700;
+    color: #00090A;
+}
+
+.picknumbers {
+    color: #D4D9D5;
+    text-align: right;
+    vertical-align: bottom;
+}
+
+.round {
+    color: #00090A;
+    text-align: center;
+    vertical-align: bottom;
+    border-right-color: #D4D9D5;
+    border-right-style: solid;
+    font-size: 1.5em;
+    font-weight: 700;
+    
+}
+
+.draft {
+    text-align: center;
+}
+
+
+thead {
+    border-bottom-style: solid;
+    border-bottom-color: #D4D9D5;
+}
+
+.categories {
+    font-weight: 700;
+    border-bottom-style: solid;
+    border-bottom-color: #D4D9D5;
+    margin-bottom: 1%;
+}
+
+.players {
+    padding: 1px;
+    text-decoration: line-through;
+}
+
+
+.positionbox {
+    margin-bottom: 3%;
+}
+
+
+.notkeepable {
+    color: #D4D9D5;
+}
