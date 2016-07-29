@@ -2,7 +2,6 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
-
 h2 {
     color: #00090A;
     font-weight: 700;
@@ -73,4 +72,21 @@ thead {
 
 .notkeepable {
     color: #D4D9D5;
+}
+
+.standings {
+    text-align: center;
+}
+
+.standings p {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.standings h2 {
+    border-bottom: solid;
+    border-bottom-color: #D4D9D5;
+    padding-bottom: 2%;
+    
+    
 }
