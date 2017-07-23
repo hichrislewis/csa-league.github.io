@@ -72,7 +72,8 @@ thead {
 
 
 .notkeepable {
-    color: #CCCCCC;
+    color: #E66A7A;
+    text-decoration: line-through;
 }
 
 .standings {
