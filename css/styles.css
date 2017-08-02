@@ -8,16 +8,17 @@ h2 {
     font-weight: 300;
 }
 
-h3{
-    color: #000000;
+h5 {
+    font-size: 12px;
+    text-transform: uppercase;
     font-weight: 700;
-    font-size: 1.5em;
+    border-top-style: solid;
+    border-top-width: thin;
+    padding-top: 3%;
 }
 
-h4 {
-    color: #000000;
-    font-size: 1em;
-    font-weight: 400;
+p {
+  font-size: 16px;
 }
 
 .tradedpickteam{
@@ -52,30 +53,18 @@ thead {
     border-bottom-color: #000000;
 }
 
-.categories {
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: 700;
-    border-top-style: solid;
-    border-top-width: thin;
-    padding-top: 1%;
-}
-
-.nopadding {
-   padding: 0 !important;
-   margin: 0 !important;
-}
-
 .player {
-  height: 40px;
+  height: 56px;
   margin-left: auto;
-  line-height: 40px;
+  line-height: 56px;
+  padding-left: 1%;
 }
 
 .playeralt {
-  height: 40px;
-  line-height: 40px;
+  height: 56px;
+  line-height: 56px;
   background-color: #F5F4F5;
+  padding-left: 1%;
 }
 
 .stats {
@@ -186,4 +175,56 @@ ul {
 
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
+}
+
+
+/*playground*/
+{
+    box-sizing: border-box;
+}
+.roster {
+  width: 100%;
+}
+
+.columns {
+    float: left;
+    width: 25%;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.playerupdate {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.playerupdate .header {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.playerupdate li {
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 25%;
+    }
+
+    .columns p {
+      font-size: .8em;
+    }
+
+    .columns h5 {
+      font-size: .7em;
+    }
+
 }
